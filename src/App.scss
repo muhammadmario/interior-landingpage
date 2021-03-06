@@ -64,12 +64,12 @@ body {
         height: 90vh;
         position: absolute;
         top: 80px;
-        left: 100%;
+        left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
       }
       .nav_menu.active {
-        background: #0f1823;
+        background: #286f76;
         left: 0;
         top: 80px;
         opacity: 1;
@@ -368,6 +368,9 @@ body {
   width: 100vw;
   height: 30vh;
   border-top: 2px solid rgb(110, 110, 110);
+  @media screen and (max-width: 968px) {
+    margin: 20px 0px;
+  }
   .container {
     width: 80%;
     height: 100%;
@@ -396,6 +399,7 @@ body {
         color: rgb(119, 119, 119);
         @media screen and (max-width: 968px) {
           font-size: 12px;
+          text-align: center;
         }
       }
     }
