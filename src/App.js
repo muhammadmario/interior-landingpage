@@ -1,4 +1,5 @@
 import "./App.scss";
+import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Infodua from "./Components/Infodua";
 import Infosatu from "./Components/Infosatu";
@@ -15,6 +16,7 @@ function App() {
       <Infosatu />
       <Infodua />
       <Projects />
+      <Footer />
     </div>
   );
 }
