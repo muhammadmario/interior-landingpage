@@ -1,5 +1,5 @@
 import React from "react";
-import furnitursatu from "../img/furnitursatu.png";
+import furnitursatu from "../img/furnitursatu.jpg";
 
 function Infodua() {
   return (

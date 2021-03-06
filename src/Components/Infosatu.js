@@ -1,5 +1,5 @@
 import React from "react";
-import furnitur from "../img/furnitur.png";
+import furnitur from "../img/furnitur.jpg";
 
 function Infosatu() {
   return (

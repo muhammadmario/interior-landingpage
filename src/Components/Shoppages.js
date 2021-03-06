@@ -1,11 +1,11 @@
 import React from "react";
 import Cardshop from "./Cardshop";
-import shop1 from "../img/shop1.png";
-import shop2 from "../img/shop2.png";
-import shop3 from "../img/shop3.png";
-import shop4 from "../img/shop4.png";
-import shop5 from "../img/shop5.png";
-import shop6 from "../img/shop6.png";
+import shop1 from "../img/shop1.jpg";
+import shop2 from "../img/shop2.jpg";
+import shop3 from "../img/shop3.jpg";
+import shop4 from "../img/shop4.jpg";
+import shop5 from "../img/shop5.jpg";
+import shop6 from "../img/shop6.jpg";
 
 function Shoppages() {
   return (

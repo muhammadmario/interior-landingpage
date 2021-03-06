@@ -1,8 +1,8 @@
 import React from "react";
 import Cardproject from "./Cardproject";
-import gambarproject from "../img/project.png";
-import gambarproject1 from "../img/project1.png";
-import gambarproject2 from "../img/project2.png";
+import gambarproject from "../img/project.jpg";
+import gambarproject1 from "../img/project1.jpg";
+import gambarproject2 from "../img/project2.jpg";
 
 function Projects() {
   return (
