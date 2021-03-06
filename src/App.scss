@@ -313,3 +313,40 @@ body {
     }
   }
 }
+
+.projects {
+  width: 100vw;
+  min-height: 100vh;
+  .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    .project-area {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.cardproject {
+  padding: 10px;
+  width: 312px;
+  height: 395px;
+  gap: 10px;
+  &:hover {
+    transition: 800ms;
+    box-shadow: 1px -1px 11px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px -1px 11px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px -1px 11px 1px rgba(0, 0, 0, 0.75);
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (max-width: 968px) {
+    margin-top: 20px;
+  }
+}
