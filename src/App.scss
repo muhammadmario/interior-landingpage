@@ -375,6 +375,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 968px) {
+      flex-direction: column;
+    }
     .contact {
       display: flex;
       justify-content: center;
@@ -383,10 +386,17 @@ body {
         font-size: 20px;
         font-weight: 500;
         margin-bottom: 20px;
+        @media screen and (max-width: 968px) {
+          margin-bottom: 0px;
+          text-align: center;
+        }
       }
       span {
         font-size: 15px;
         color: rgb(119, 119, 119);
+        @media screen and (max-width: 968px) {
+          font-size: 12px;
+        }
       }
     }
     .question {
@@ -397,6 +407,11 @@ body {
         font-size: 20px;
         font-weight: 500;
         margin-bottom: 20px;
+        @media screen and (max-width: 968px) {
+          margin-bottom: 10px;
+          font-size: 18px;
+          text-align: center;
+        }
       }
       .input-wrapper {
         display: flex;
@@ -405,6 +420,10 @@ body {
           width: 400px;
           height: 50px;
           padding: 5px 10px;
+          @media screen and (max-width: 968px) {
+            width: 200px;
+            height: 40px;
+          }
         }
         button {
           width: 80px;
@@ -412,7 +431,18 @@ body {
           border: none;
           color: white;
           background-color: black;
+          @media screen and (max-width: 968px) {
+            width: 50px;
+            height: 40px;
+          }
         }
+      }
+    }
+    .mediasocial {
+      display: flex;
+      gap: 15px;
+      p {
+        font-size: 14px;
       }
     }
   }
