@@ -6,7 +6,6 @@
 
 body {
   overflow-x: hidden;
-  // background-color: turquoise;
 }
 
 .navbar {
@@ -116,7 +115,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   top: -80px;
-  position: absolute;
+  position: relative;
   z-index: -1;
   display: flex;
   justify-content: center;
@@ -130,5 +129,187 @@ body {
   p {
     font-size: 15px;
     font-weight: 300;
+  }
+}
+
+.shoppages {
+  width: 100vw;
+  min-height: 100vh;
+  // margin-top: -80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 968px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .shop-area {
+      width: 95%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+      @media screen and (max-width: 968px) {
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+  }
+  .button-wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    button {
+      background-color: white;
+      border: 3px solid black;
+      padding: 5px 15px;
+      font-size: 16px;
+      font-weight: 600;
+      width: 190px;
+      height: 50px;
+      cursor: pointer;
+      &:hover {
+        background-color: black;
+        color: white;
+        transition: 500ms;
+      }
+    }
+  }
+}
+
+.cardshop {
+  padding: 10px;
+  width: 312px;
+  height: 395px;
+  &:hover {
+    transition: 800ms;
+    box-shadow: 1px -1px 11px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px -1px 11px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px -1px 11px 1px rgba(0, 0, 0, 0.75);
+  }
+  img {
+    width: 100%;
+    height: 80%;
+  }
+  @media screen and (max-width: 968px) {
+    margin-top: 20px;
+  }
+  p {
+    font-weight: 600;
+    font-size: 23px;
+  }
+  span {
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+.infosatu {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    @media screen and (max-width: 968px) {
+      flex-direction: column;
+    }
+    .sectionsatu {
+      width: 50%;
+      @media screen and (max-width: 968px) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .sectiondua {
+      width: 50%;
+      padding: 50px 100px 50px 50px;
+      @media screen and (max-width: 968px) {
+        width: 100%;
+        padding: 0px;
+      }
+      h1 {
+        font-weight: 500;
+        font-size: 43px;
+        margin-bottom: 10px;
+        @media screen and (max-width: 968px) {
+          font-size: 33px;
+        }
+      }
+      p {
+        color: rgb(138, 138, 138);
+        line-height: 22px;
+        @media screen and (max-width: 968px) {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+
+.infodua {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    @media screen and (max-width: 968px) {
+      flex-direction: column;
+    }
+    .sectionsatu {
+      width: 50%;
+      padding: 50px 50px 50px 50px;
+      @media screen and (max-width: 968px) {
+        width: 100%;
+        padding: 0px;
+      }
+      h1 {
+        font-weight: 500;
+        font-size: 43px;
+        margin-bottom: 10px;
+        @media screen and (max-width: 968px) {
+          font-size: 33px;
+        }
+      }
+      p {
+        color: rgb(138, 138, 138);
+        line-height: 22px;
+        @media screen and (max-width: 968px) {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+    .sectiondua {
+      width: 50%;
+      @media screen and (max-width: 968px) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+      }
+    }
   }
 }
